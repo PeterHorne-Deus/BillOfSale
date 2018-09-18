@@ -1,7 +1,8 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Peter Horne-Deus
+ * BillOfSale.java
+ * This program calculates a bill of sale for a shirt
+ * September 18, 2018
  */
 
 package billofsale;
@@ -18,7 +19,7 @@ public class BillOfSale {
     public static void main(String[] args) {
         // TODO code application logic here
         double p = 12.49;
-        double g = 20;
+        int g = 20;
         double t = 0.13;
         double c = (p)+t*(p);
         double x = g-c;
