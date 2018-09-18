@@ -18,12 +18,13 @@ public class BillOfSale {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        double p = 12.49;
-        int g = 20;
-        double t = 0.13;
-        double c = (p)+t*(p);
-        double x = g-c;
-        System.out.println("Price: $" + p + "\n" + "\n"+ "Taxes: " + t + "%" + "\n" + "\n"+ "Total: $" + c +"\n" + "\n" + "Amount Given: $" + g + "\n" + "\n" + "Change Due: $" + x );
+        double price = 12.49;
+        int given = 20;
+        double tax = 0.13;
+        double cost = (price)+tax*(price);
+        double change = given-cost;
+        
+        System.out.println("Price: $" + price + "\n" + "\n"+ "Taxes: " + tax + "%" + "\n" + "\n"+ "Total: $" + cost +"\n" + "\n" + "Amount Given: $" + given + "\n" + "\n" + "Change Due: $" + change );
     }
     
 }
